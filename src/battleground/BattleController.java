@@ -73,7 +73,7 @@ public class BattleController extends JPanel{
 
 	      switch(e.getActionCommand()) {
 	      	case "start":
-	      		viewPane.requestFocus();
+	      		world.start();
 	      		break;
 	      	case "pause":
 	      		world.pause();
