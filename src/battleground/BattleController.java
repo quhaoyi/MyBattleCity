@@ -35,7 +35,8 @@ public class BattleController extends JPanel{
 	    JButton resume = new JButton("resume");
 	    JButton stop = new JButton("stop");
 	    JPanel buttons = new JPanel();
-	    buttons.add(start);
+	    //The function of the start button needs to finished
+	    //buttons.add(start);
 	    buttons.add(pause);
 	    buttons.add(resume);
 	    buttons.add(stop);
@@ -48,7 +49,7 @@ public class BattleController extends JPanel{
 	    add(buttons, BorderLayout.SOUTH);
 	    // set up listener for the buttons
 	    SimButtonListener buttonListener = new SimButtonListener();
-	    start.addActionListener(buttonListener);
+	    //start.addActionListener(buttonListener);
 	    pause.addActionListener(buttonListener);
 	    resume.addActionListener(buttonListener);
 	    stop.addActionListener(buttonListener);
@@ -73,7 +74,7 @@ public class BattleController extends JPanel{
 
 	      switch(e.getActionCommand()) {
 	      	case "start":
-	      		world.start();
+	      		world.run();
 	      		break;
 	      	case "pause":
 	      		world.pause();

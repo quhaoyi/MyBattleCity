@@ -35,7 +35,7 @@ public class MyBattleCity {
 	    frame.setResizable(false);
 
 	    // let it run
-	    //field.run();
+	    field.run();
 	    // frame.dispose();   // uncomment to have window close when sim done
 	  }
 }

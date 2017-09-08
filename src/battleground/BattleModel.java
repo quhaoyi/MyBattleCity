@@ -62,9 +62,9 @@ public class BattleModel {
 	}
 	
 	//this method will return player's tank
-		public Tank getPlayerTank(){
-			return this.player;
-		}
+	public Tank getPlayerTank(){
+		return this.player;
+	}
 	
 	
 	//this method will return a list of all the enemy tanks
